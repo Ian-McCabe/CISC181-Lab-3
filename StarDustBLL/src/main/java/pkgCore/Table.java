@@ -73,7 +73,7 @@ public class Table {
 	 */
 	public void AddPlayerToTable(Player player)
 	{
-		//FIXME: Add a player to the table
+		TablePlayers.add(player);
 	}
 	
 	/**
@@ -86,7 +86,7 @@ public class Table {
 	 */
 	public void RemovePlayerFromTable(Player p)
 	{
-		//FIXME: Remove a player from the table
+		TablePlayers.remove(p);
 	}
 	
 	/**
@@ -99,8 +99,7 @@ public class Table {
 	 */
 	public ArrayList<Player> getTablePlayers()
 	{
-		//FIXME: This should return the TablePlayers (don't return null).
-		return null;
+		return TablePlayers;
 	}
 
 }
