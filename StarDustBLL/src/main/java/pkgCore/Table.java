@@ -56,11 +56,13 @@ public class Table {
 	public void SetTablePlayers(ArrayList<Player> Players)
 	{
 		TablePlayers.clear();
-		int i;
+		TablePlayers.addAll(Players);
+		/*int i;
 		for (i = 0; i < Players.size(); i++)
 		{
 			TablePlayers.add(Players.get(i));
 		}
+		*/
 	}
 	
 	/**
