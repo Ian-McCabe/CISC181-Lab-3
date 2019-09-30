@@ -249,7 +249,6 @@ public class HandPoker extends Hand implements Comparable {
 		ArrayList<HandPoker> CombinationHands = new ArrayList<HandPoker>();
 		Rule rle = this.getGP().getRle();
 		
-		//FIXME: Complete this method.  It's a tough one!
 		int i;
 		int iMinPlayerCards = rle.getPlayerCardsMin();
 		int iMaxPlayerCards = rle.getPlayerCardsMax();
